@@ -1,0 +1,25 @@
+.layout {
+  min-height: 100vh;
+  background: #fff;
+}
+
+.webcam-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.webcam-circle {
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.webcam {
+  width: 350px;
+  height: 350px;
+}
